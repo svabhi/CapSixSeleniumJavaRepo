@@ -2,96 +2,96 @@
 <testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-15T15:49:50 IST" name="Suite" finished-at="2022-11-15T15:50:16 IST" duration-ms="26368">
+  <suite started-at="2022-11-15T16:03:37 IST" name="Suite" finished-at="2022-11-15T16:04:01 IST" duration-ms="24063">
     <groups>
     </groups>
-    <test started-at="2022-11-15T15:49:50 IST" name="Test" finished-at="2022-11-15T15:50:16 IST" duration-ms="26368">
+    <test started-at="2022-11-15T16:03:37 IST" name="Test" finished-at="2022-11-15T16:04:01 IST" duration-ms="24063">
       <class name="tests.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@2ab4bc72]" started-at="2022-11-15T15:50:02 IST" name="setup" finished-at="2022-11-15T15:50:04 IST" duration-ms="1974" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@2ab4bc72]" started-at="2022-11-15T16:03:47 IST" name="setup" finished-at="2022-11-15T16:03:49 IST" duration-ms="1938" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginWithValidCrendetials()[pri:1, instance:tests.LoginTest@2ab4bc72]" started-at="2022-11-15T15:50:04 IST" name="loginWithValidCrendetials" finished-at="2022-11-15T15:50:05 IST" duration-ms="1259" status="PASS">
+        <test-method signature="loginWithValidCrendetials()[pri:1, instance:tests.LoginTest@2ab4bc72]" started-at="2022-11-15T16:03:49 IST" name="loginWithValidCrendetials" finished-at="2022-11-15T16:03:50 IST" duration-ms="1064" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithValidCrendetials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@2ab4bc72]" started-at="2022-11-15T15:50:05 IST" name="tearDown" finished-at="2022-11-15T15:50:05 IST" duration-ms="198" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@2ab4bc72]" started-at="2022-11-15T16:03:50 IST" name="tearDown" finished-at="2022-11-15T16:03:50 IST" duration-ms="131" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@2ab4bc72]" started-at="2022-11-15T15:50:05 IST" name="setup" finished-at="2022-11-15T15:50:07 IST" duration-ms="1849" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@2ab4bc72]" started-at="2022-11-15T16:03:50 IST" name="setup" finished-at="2022-11-15T16:03:52 IST" duration-ms="1747" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginWithInvalidCredentials()[pri:2, instance:tests.LoginTest@2ab4bc72]" started-at="2022-11-15T15:50:07 IST" name="loginWithInvalidCredentials" finished-at="2022-11-15T15:50:08 IST" duration-ms="1035" status="PASS">
+        <test-method signature="loginWithInvalidCredentials()[pri:2, instance:tests.LoginTest@2ab4bc72]" started-at="2022-11-15T16:03:52 IST" name="loginWithInvalidCredentials" finished-at="2022-11-15T16:03:53 IST" duration-ms="925" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithInvalidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@2ab4bc72]" started-at="2022-11-15T15:50:08 IST" name="tearDown" finished-at="2022-11-15T15:50:08 IST" duration-ms="254" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@2ab4bc72]" started-at="2022-11-15T16:03:53 IST" name="tearDown" finished-at="2022-11-15T16:03:53 IST" duration-ms="166" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.LoginTest -->
       <class name="tests.RegisterTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.RegisterTest@23e84203]" started-at="2022-11-15T15:49:50 IST" name="setup" finished-at="2022-11-15T15:49:56 IST" duration-ms="6006" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.RegisterTest@23e84203]" started-at="2022-11-15T16:03:37 IST" name="setup" finished-at="2022-11-15T16:03:42 IST" duration-ms="4121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="registerWithMandatoryFields()[pri:1, instance:tests.RegisterTest@23e84203]" started-at="2022-11-15T15:49:56 IST" name="registerWithMandatoryFields" finished-at="2022-11-15T15:49:58 IST" duration-ms="1619" status="PASS">
+        <test-method signature="registerWithMandatoryFields()[pri:1, instance:tests.RegisterTest@23e84203]" started-at="2022-11-15T16:03:42 IST" name="registerWithMandatoryFields" finished-at="2022-11-15T16:03:43 IST" duration-ms="1629" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerWithMandatoryFields -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RegisterTest@23e84203]" started-at="2022-11-15T15:49:58 IST" name="tearDown" finished-at="2022-11-15T15:49:58 IST" duration-ms="331" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RegisterTest@23e84203]" started-at="2022-11-15T16:03:43 IST" name="tearDown" finished-at="2022-11-15T16:03:43 IST" duration-ms="198" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.RegisterTest@23e84203]" started-at="2022-11-15T15:49:58 IST" name="setup" finished-at="2022-11-15T15:50:00 IST" duration-ms="1989" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.RegisterTest@23e84203]" started-at="2022-11-15T16:03:43 IST" name="setup" finished-at="2022-11-15T16:03:45 IST" duration-ms="1816" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="registerWithAllFields()[pri:2, instance:tests.RegisterTest@23e84203]" started-at="2022-11-15T15:50:00 IST" name="registerWithAllFields" finished-at="2022-11-15T15:50:02 IST" duration-ms="1668" status="PASS">
+        <test-method signature="registerWithAllFields()[pri:2, instance:tests.RegisterTest@23e84203]" started-at="2022-11-15T16:03:45 IST" name="registerWithAllFields" finished-at="2022-11-15T16:03:47 IST" duration-ms="1647" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerWithAllFields -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RegisterTest@23e84203]" started-at="2022-11-15T15:50:02 IST" name="tearDown" finished-at="2022-11-15T15:50:02 IST" duration-ms="254" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RegisterTest@23e84203]" started-at="2022-11-15T16:03:47 IST" name="tearDown" finished-at="2022-11-15T16:03:47 IST" duration-ms="187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.RegisterTest -->
       <class name="tests.SearchTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SearchTest@4e5ed836]" started-at="2022-11-15T15:50:09 IST" name="setup" finished-at="2022-11-15T15:50:10 IST" duration-ms="1904" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SearchTest@4e5ed836]" started-at="2022-11-15T16:03:53 IST" name="setup" finished-at="2022-11-15T16:03:55 IST" duration-ms="1984" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="searchWithValidProductName()[pri:1, instance:tests.SearchTest@4e5ed836]" started-at="2022-11-15T15:50:10 IST" name="searchWithValidProductName" finished-at="2022-11-15T15:50:11 IST" duration-ms="458" status="PASS">
+        <test-method signature="searchWithValidProductName()[pri:1, instance:tests.SearchTest@4e5ed836]" started-at="2022-11-15T16:03:55 IST" name="searchWithValidProductName" finished-at="2022-11-15T16:03:56 IST" duration-ms="496" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchWithValidProductName -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchTest@4e5ed836]" started-at="2022-11-15T15:50:11 IST" name="tearDown" finished-at="2022-11-15T15:50:11 IST" duration-ms="274" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchTest@4e5ed836]" started-at="2022-11-15T16:03:56 IST" name="tearDown" finished-at="2022-11-15T16:03:56 IST" duration-ms="223" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SearchTest@4e5ed836]" started-at="2022-11-15T15:50:11 IST" name="setup" finished-at="2022-11-15T15:50:13 IST" duration-ms="1885" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SearchTest@4e5ed836]" started-at="2022-11-15T16:03:56 IST" name="setup" finished-at="2022-11-15T16:03:58 IST" duration-ms="2026" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="searchWithInvalidProductName()[pri:2, instance:tests.SearchTest@4e5ed836]" started-at="2022-11-15T15:50:13 IST" name="searchWithInvalidProductName" finished-at="2022-11-15T15:50:13 IST" duration-ms="380" status="PASS">
+        <test-method signature="searchWithInvalidProductName()[pri:2, instance:tests.SearchTest@4e5ed836]" started-at="2022-11-15T16:03:58 IST" name="searchWithInvalidProductName" finished-at="2022-11-15T16:03:58 IST" duration-ms="557" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchWithInvalidProductName -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchTest@4e5ed836]" started-at="2022-11-15T15:50:13 IST" name="tearDown" finished-at="2022-11-15T15:50:14 IST" duration-ms="281" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchTest@4e5ed836]" started-at="2022-11-15T16:03:58 IST" name="tearDown" finished-at="2022-11-15T16:03:59 IST" duration-ms="296" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SearchTest@4e5ed836]" started-at="2022-11-15T15:50:14 IST" name="setup" finished-at="2022-11-15T15:50:16 IST" duration-ms="1969" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SearchTest@4e5ed836]" started-at="2022-11-15T16:03:59 IST" name="setup" finished-at="2022-11-15T16:04:01 IST" duration-ms="2141" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="searchByNotProvidingAnyProductName()[pri:3, instance:tests.SearchTest@4e5ed836]" started-at="2022-11-15T15:50:16 IST" name="searchByNotProvidingAnyProductName" finished-at="2022-11-15T15:50:16 IST" duration-ms="388" status="PASS">
+        <test-method signature="searchByNotProvidingAnyProductName()[pri:3, instance:tests.SearchTest@4e5ed836]" started-at="2022-11-15T16:04:01 IST" name="searchByNotProvidingAnyProductName" finished-at="2022-11-15T16:04:01 IST" duration-ms="434" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchByNotProvidingAnyProductName -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchTest@4e5ed836]" started-at="2022-11-15T15:50:16 IST" name="tearDown" finished-at="2022-11-15T15:50:16 IST" duration-ms="322" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchTest@4e5ed836]" started-at="2022-11-15T16:04:01 IST" name="tearDown" finished-at="2022-11-15T16:04:01 IST" duration-ms="257" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
