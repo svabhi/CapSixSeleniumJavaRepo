@@ -1,63 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-05T13:57:08 IST" name="Suite" finished-at="2022-09-05T13:57:18 IST" duration-ms="10438">
+  <suite started-at="2022-11-15T15:49:50 IST" name="Suite" finished-at="2022-11-15T15:50:16 IST" duration-ms="26368">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.MyRunner@10e31a9a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2022-09-05T13:57:08 IST" name="Test" finished-at="2022-09-05T13:57:18 IST" duration-ms="10438">
-      <class name="runner.MyRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.MyRunner@10e31a9a]" started-at="2022-09-05T13:57:08 IST" name="setUpClass" finished-at="2022-09-05T13:57:08 IST" duration-ms="471" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@17ba57f0]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2022-11-15T15:49:50 IST" name="Test" finished-at="2022-11-15T15:50:16 IST" duration-ms="26368">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@2ab4bc72]" started-at="2022-11-15T15:50:02 IST" name="setup" finished-at="2022-11-15T15:50:04 IST" duration-ms="1974" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.MyRunner@10e31a9a]" started-at="2022-09-05T13:57:08 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-05T13:57:14 IST" duration-ms="6138" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Login with valid credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["User Login"]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithValidCrendetials()[pri:1, instance:tests.LoginTest@2ab4bc72]" started-at="2022-11-15T15:50:04 IST" name="loginWithValidCrendetials" finished-at="2022-11-15T15:50:05 IST" duration-ms="1259" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.MyRunner@10e31a9a]" started-at="2022-09-05T13:57:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-05T13:57:18 IST" duration-ms="3716" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Login with invalid credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["User Login"]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- loginWithValidCrendetials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@2ab4bc72]" started-at="2022-11-15T15:50:05 IST" name="tearDown" finished-at="2022-11-15T15:50:05 IST" duration-ms="198" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.MyRunner@10e31a9a]" started-at="2022-09-05T13:57:18 IST" name="tearDownClass" finished-at="2022-09-05T13:57:18 IST" duration-ms="14" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@2ab4bc72]" started-at="2022-11-15T15:50:05 IST" name="setup" finished-at="2022-11-15T15:50:07 IST" duration-ms="1849" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- runner.MyRunner -->
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithInvalidCredentials()[pri:2, instance:tests.LoginTest@2ab4bc72]" started-at="2022-11-15T15:50:07 IST" name="loginWithInvalidCredentials" finished-at="2022-11-15T15:50:08 IST" duration-ms="1035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@2ab4bc72]" started-at="2022-11-15T15:50:08 IST" name="tearDown" finished-at="2022-11-15T15:50:08 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.RegisterTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.RegisterTest@23e84203]" started-at="2022-11-15T15:49:50 IST" name="setup" finished-at="2022-11-15T15:49:56 IST" duration-ms="6006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerWithMandatoryFields()[pri:1, instance:tests.RegisterTest@23e84203]" started-at="2022-11-15T15:49:56 IST" name="registerWithMandatoryFields" finished-at="2022-11-15T15:49:58 IST" duration-ms="1619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithMandatoryFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RegisterTest@23e84203]" started-at="2022-11-15T15:49:58 IST" name="tearDown" finished-at="2022-11-15T15:49:58 IST" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.RegisterTest@23e84203]" started-at="2022-11-15T15:49:58 IST" name="setup" finished-at="2022-11-15T15:50:00 IST" duration-ms="1989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerWithAllFields()[pri:2, instance:tests.RegisterTest@23e84203]" started-at="2022-11-15T15:50:00 IST" name="registerWithAllFields" finished-at="2022-11-15T15:50:02 IST" duration-ms="1668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithAllFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RegisterTest@23e84203]" started-at="2022-11-15T15:50:02 IST" name="tearDown" finished-at="2022-11-15T15:50:02 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.RegisterTest -->
+      <class name="tests.SearchTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SearchTest@4e5ed836]" started-at="2022-11-15T15:50:09 IST" name="setup" finished-at="2022-11-15T15:50:10 IST" duration-ms="1904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchWithValidProductName()[pri:1, instance:tests.SearchTest@4e5ed836]" started-at="2022-11-15T15:50:10 IST" name="searchWithValidProductName" finished-at="2022-11-15T15:50:11 IST" duration-ms="458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithValidProductName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchTest@4e5ed836]" started-at="2022-11-15T15:50:11 IST" name="tearDown" finished-at="2022-11-15T15:50:11 IST" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SearchTest@4e5ed836]" started-at="2022-11-15T15:50:11 IST" name="setup" finished-at="2022-11-15T15:50:13 IST" duration-ms="1885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchWithInvalidProductName()[pri:2, instance:tests.SearchTest@4e5ed836]" started-at="2022-11-15T15:50:13 IST" name="searchWithInvalidProductName" finished-at="2022-11-15T15:50:13 IST" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithInvalidProductName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchTest@4e5ed836]" started-at="2022-11-15T15:50:13 IST" name="tearDown" finished-at="2022-11-15T15:50:14 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SearchTest@4e5ed836]" started-at="2022-11-15T15:50:14 IST" name="setup" finished-at="2022-11-15T15:50:16 IST" duration-ms="1969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchByNotProvidingAnyProductName()[pri:3, instance:tests.SearchTest@4e5ed836]" started-at="2022-11-15T15:50:16 IST" name="searchByNotProvidingAnyProductName" finished-at="2022-11-15T15:50:16 IST" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByNotProvidingAnyProductName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchTest@4e5ed836]" started-at="2022-11-15T15:50:16 IST" name="tearDown" finished-at="2022-11-15T15:50:16 IST" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SearchTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

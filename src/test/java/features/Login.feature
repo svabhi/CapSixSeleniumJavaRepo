@@ -12,7 +12,7 @@ When User enters valid credentials into the email and password fields
 And User clicks on Login button
 Then Verify user is able to successfully login
 
-@invalidcredentials @regression @all @login
+@invalidcredentials @regression @all @login @abhi
 Scenario: Login with invalid credentials
 When User enters invalid credentials into the email and password fields
 And User clicks on Login button
